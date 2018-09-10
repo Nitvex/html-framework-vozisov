@@ -8,5 +8,5 @@
 6. Classes for margins and paddings for 4px, 8px, 12px, 16px <br>
    Classes are like mx-1 (left and right margins) , py-2 (top and bottom paddings) , pa-4 (all-side padding)
 
- *All framework classes are in style.css. Style.css is for demonstration purpose.                 
+ *All framework classes are in styles.css. Style.css is for demonstration purpose.                 
                      
