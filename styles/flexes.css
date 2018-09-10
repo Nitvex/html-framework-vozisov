@@ -1,0 +1,34 @@
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.y-center {
+    display: flex;
+    justify-content: center;
+}
+
+.x-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.x-end {
+    display: flex;
+    justify-content: flex-end;
+}
