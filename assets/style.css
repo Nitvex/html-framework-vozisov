@@ -1132,4 +1132,16 @@ i.input-icon {
   color: white;
 }
 
+.hfv-title {
+  font-size: 1rem;
+}
+
+.hfv-title-small {
+  font-size: 0.5rem;
+}
+
+.hfv-title-large {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
