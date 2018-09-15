@@ -1030,9 +1030,18 @@ i.input-icon {
   float: left;
 }
 
-.hfv-label {
+.hfv-label-large, .hfv-label-small {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 0.25rem;
+}
+
+.hfv-label-small {
+  font-size: 1rem;
+}
+
+.hfv-label-large {
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
