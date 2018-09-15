@@ -1,0 +1,24 @@
+/* Column system
+   Here is 12-column system presented
+ */
+
+$screen-sizes:(
+        xs:575.98px,
+        md:767.98px,
+        lg:991.98px,
+        xl:1199.98px
+);
+
+@each $screen-size-name, $screen-size in $screen-sizes{
+  @for $column from 1 through 12{
+    .col-#{$screen-size-name}-#{$column}{
+      display: flex;
+      flex-direction: row;
+      width: $column/12*100%;
+    }
+  }
+}
+
+
+
+

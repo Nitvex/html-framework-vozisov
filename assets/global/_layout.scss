@@ -1,0 +1,32 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Floats */
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-center {
+  @include text-alignment(center);
+}
+
+.text-left {
+  @include text-alignment(left);
+}
+
+.text-right {
+  @include text-alignment(right);
+}
