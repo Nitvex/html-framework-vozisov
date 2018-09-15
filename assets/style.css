@@ -988,6 +988,41 @@ table {
   padding: 16px 0;
 }
 
+.hfv-button {
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.hfv-button {
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.hfv-button-big {
+  font-size: 2rem;
+  padding: 0.75rem;
+}
+
+.hfv-button-small {
+  font-size: 0.75rem;
+}
+
+.hfv-button:disabled {
+  background-color: #e2e3e5;
+}
+
+.hfv-button-primary {
+  background-color: #cce5ff;
+}
+
+.hfv-button-secondary {
+  background-color: #d6d8d9;
+}
+
+.hfv-button-warning {
+  background-color: #fff3cd;
+}
+
 .hfv-input {
   border-radius: 5px;
   border: 1px solid black;
