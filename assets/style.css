@@ -1023,6 +1023,19 @@ table {
   background-color: #fff3cd;
 }
 
+.hfv-checkbox:disabled {
+  background-color: #cce5ff;
+}
+
+.hfv-checkbox:focus {
+  background-color: aquamarine;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+.hfv-checkbox:invalid {
+  box-shadow: 0 0 10px indianred;
+}
+
 .hfv-input {
   border-radius: 5px;
   border: 1px solid black;
@@ -1077,6 +1090,19 @@ i.input-icon {
 .hfv-label-large {
   font-size: 2rem;
   padding: 0.5rem;
+}
+
+.hfv-radio:disabled {
+  background-color: #cce5ff;
+}
+
+.hfv-radio:focus {
+  background-color: aquamarine;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+.hfv-radio:invalid {
+  box-shadow: 0 0 10px indianred;
 }
 
 .hfv-textarea {
