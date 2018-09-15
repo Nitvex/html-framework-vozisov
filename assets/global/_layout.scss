@@ -91,7 +91,14 @@
 }
 
 /* Paddings:
-
+   generates classes like pa-1, pt-2, pl-4
+    pa - All-side paddings
+    pt - Top paddings
+    pr - Right paddings
+    pb - Bottom paddings
+    pl - Left paddings
+    px - Left-Right paddings
+    py - Top-Bottom paddings
 */
 
 @each $padding in pa, pt, pr, pb, pl, px, py {
