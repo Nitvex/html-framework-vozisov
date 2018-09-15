@@ -1,9 +1,9 @@
-@mixin flex-alignment($alignment){
+@mixin flex-alignment($alignment) {
   display: flex;
   justify-content: $alignment;
 }
 
-@mixin text-alignment($alignment){
+@mixin text-alignment($alignment) {
   text-align: $alignment;
   justify-content: $alignment;
 }
