@@ -6,34 +6,34 @@
 .hfv-button {
   border-radius: 3px;
   padding: .5rem;
-}
 
-.hfv-button-big {
-  font-size: 2rem;
-  padding: .75rem;
-}
+  &--big {
+    font-size: 2rem;
+    padding: .75rem;
+  }
 
-.hfv-button-small {
-  font-size: .75rem;
-}
+  &--small {
+    font-size: .75rem;
+  }
 
-.hfv-button:disabled {
-  background-color: #e2e3e5;
-}
+  &:disabled {
+    background-color: #e2e3e5;
+  }
 
-.hfv-button-primary {
-  background-color: #cce5ff;
-}
+  &--primary {
+    background-color: #cce5ff;
+  }
 
-.hfv-button-secondary {
-  background-color: #d6d8d9;
-}
+  &--secondary {
+    background-color: #d6d8d9;
+  }
 
-.hfv-button-warning {
-  background-color: #fff3cd;
-}
+  &--warning {
+    background-color: #fff3cd;
+  }
 
-.hfv-button-blue-aqua {
-  background: linear-gradient(45deg, #2f3ffa, #2cbbf6);
-  color: white;
+  &--blue-aqua {
+    background: linear-gradient(45deg, #2f3ffa, #2cbbf6);
+    color: white;
+  }
 }

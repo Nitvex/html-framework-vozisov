@@ -49,15 +49,17 @@ table {
 }
 
 /* Flex */
-.flex-column, .flex-row, .flex {
+.flex {
   display: flex;
 }
 
 .flex-row {
+  display: flex;
   flex-direction: row;
 }
 
 .flex-column {
+  display: flex;
   flex-direction: column;
 }
 
@@ -1005,33 +1007,26 @@ table {
   border-radius: 3px;
   padding: 0.5rem;
 }
-
-.hfv-button-big {
+.hfv-button--big {
   font-size: 2rem;
   padding: 0.75rem;
 }
-
-.hfv-button-small {
+.hfv-button--small {
   font-size: 0.75rem;
 }
-
 .hfv-button:disabled {
   background-color: #e2e3e5;
 }
-
-.hfv-button-primary {
+.hfv-button--primary {
   background-color: #cce5ff;
 }
-
-.hfv-button-secondary {
+.hfv-button--secondary {
   background-color: #d6d8d9;
 }
-
-.hfv-button-warning {
+.hfv-button--warning {
   background-color: #fff3cd;
 }
-
-.hfv-button-blue-aqua {
+.hfv-button--blue-aqua {
   background: linear-gradient(45deg, #2f3ffa, #2cbbf6);
   color: white;
 }
@@ -1039,12 +1034,10 @@ table {
 .hfv-checkbox:disabled {
   background-color: #cce5ff;
 }
-
 .hfv-checkbox:focus {
   background-color: aquamarine;
   box-shadow: 0 0 10px aquamarine;
 }
-
 .hfv-checkbox:invalid {
   box-shadow: 0 0 10px indianred;
 }
@@ -1055,29 +1048,21 @@ table {
   padding: 0.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .hfv-input:focus {
   border: 2px solid aquamarine;
   transition-duration: 0.15s;
 }
-
 .hfv-input:invalid {
   border: 2px solid indianred;
   transition-duration: 0.15s;
 }
-
 .hfv-input:disabled {
   background-color: gray;
   color: white;
 }
-
 .hfv-input:read-only {
   background-color: lightblue;
   color: white;
-}
-
-i.input-icon + input {
-  padding-left: 26px;
 }
 
 i.input-icon {
@@ -1089,6 +1074,9 @@ i.input-icon {
   position: relative;
   z-index: 1;
   float: left;
+}
+i.input-icon + input {
+  padding-left: 26px;
 }
 
 .hfv-label-large, .hfv-label-small {
@@ -1108,12 +1096,10 @@ i.input-icon {
 .hfv-radio:disabled {
   background-color: #cce5ff;
 }
-
 .hfv-radio:focus {
   background-color: aquamarine;
   box-shadow: 0 0 10px aquamarine;
 }
-
 .hfv-radio:invalid {
   box-shadow: 0 0 10px indianred;
 }
@@ -1124,22 +1110,18 @@ i.input-icon {
   padding: 0.25rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .hfv-textarea:focus {
   border: 2px solid aquamarine;
   transition-duration: 0.15s;
 }
-
 .hfv-textarea:invalid {
   border: 2px solid indianred;
   transition-duration: 0.15s;
 }
-
 .hfv-textarea:disabled {
   background-color: gray;
   color: white;
 }
-
 .hfv-textarea:read-only {
   background-color: lightblue;
   color: white;
@@ -1148,12 +1130,10 @@ i.input-icon {
 .hfv-title {
   font-size: 1rem;
 }
-
-.hfv-title-small {
+.hfv-title--small {
   font-size: 0.5rem;
 }
-
-.hfv-title-large {
+.hfv-title--large {
   font-size: 2rem;
 }
 
