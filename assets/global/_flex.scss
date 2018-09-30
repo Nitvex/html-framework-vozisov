@@ -1,20 +1,16 @@
 /* Flex */
 
-%flex{
+.flex {
   display: flex;
 }
 
-.flex {
-  @extend %flex;
-}
-
 .flex-row {
-  @extend %flex;
+  display: flex;
   flex-direction: row;
 }
 
 .flex-column {
-  @extend %flex;
+  display: flex;
   flex-direction: column;
 }
 
